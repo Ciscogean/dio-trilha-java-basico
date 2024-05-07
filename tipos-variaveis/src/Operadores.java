@@ -1,22 +1,18 @@
 public class Operadores {
     
     public static void main(String[] args) {
-        String nomeUm = "Cisco";
-        String nomeDois = "Cisco";
-        
-        System.out.println(nomeUm.equals(nomeDois));
-        
-        
-        int numero1 = 1;
-        int numero2 = 2;
+        boolean condicao1 = true;
 
-        boolean simNao = numero1 == numero2;
+        boolean condicao2 = false;
 
-        System.out.println("numeroUm é igual a numroDois? " + simNao);
+        if (condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras");
+        }
 
-        simNao = numero1 != numero2;
+        if (condicao1 || condicao2) {
+            System.out.println("Uma das condições é verdadeira");
+        }
 
-        System.out.println("numeroUm é diferente de numero Dois?" + simNao);
-        
+        System.out.println("Fim");
     }
 }
