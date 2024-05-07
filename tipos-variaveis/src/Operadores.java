@@ -1,17 +1,15 @@
 public class Operadores {
     
     public static void main(String[] args) {
-        int numero = 5;
+        int a, b;
 
-        //x repetição
-        numero++;
-        //numero = numero +1;
+        a = 5;
+        b = 6;
 
-        System.out.println(numero++); // Imprimir o numero sem incremetação e incrementa depois
+        String resultado = a == b ? "verdadeiro" : "falso";
         
-        System.out.println(++ numero); // incementa e imprimir
-
-        System.out.println(numero);
+        
+        System.out.println(resultado);
         
     }
 }
